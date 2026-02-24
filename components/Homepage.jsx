@@ -1,16 +1,15 @@
 import { useState, useEffect } from "react"
-import axios from "axios"
+import MoviesData from "./MoviesData.jsx"
 
-const endpoint = "localhost:3000"
 
 
 function Homepage() {
 
     return (
         <>
-            <div className="vw-100 vh-80">
-                <div className="w-80">
-
+            <div className="vw-100 vh-80 d-flex justify-content-around bg-secondary">
+                <div className="w-80 px-3 py-2 d-flex justify-content-between flex-wrap bg-aquamarine">
+                    <MoviesData />
                 </div>
             </div>
         </>

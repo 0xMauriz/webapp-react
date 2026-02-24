@@ -161,3 +161,7 @@
 .pb-24 {
     padding-bottom: 24%;
 }
+
+.bg-aquamarine {
+    background-color: aquamarine !important;
+}
