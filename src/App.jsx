@@ -1,7 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
+import './styles/Personal-Bootstrap.css'
 import './App.css'
 import DefaultLayout from '../components/DefaultLayout'
 import Homepage from '../components/Homepage'
+import Movie from '../components/Movie.jsx'
 
 function App() {
 
@@ -12,7 +16,7 @@ function App() {
           <Route element={<DefaultLayout />}>
             <Route path="/" >
               <Route index element={<Homepage />} />
-              <Route path=":title" />
+              <Route path=":title" element={<Movie />} />
             </Route>
           </Route>
         </Routes>

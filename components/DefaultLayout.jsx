@@ -7,7 +7,7 @@ function DefaultLayout() {
     return (
         <>
             <Navbar />
-            <main className="vh-100 vw-100 bg-color-dark">
+            <main className="vw-100 bg-color-dark">
                 <Outlet />
             </main>
             <Footer />
