@@ -3,9 +3,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 import './styles/Personal-Bootstrap.css'
 import './App.css'
-import DefaultLayout from '../components/DefaultLayout'
-import Homepage from '../components/Homepage'
-import MovieDetailsPage from '../components/MovieDetailsPage.jsx'
+import DefaultLayout from './components/DefaultLayout.jsx'
+import Homepage from './components/Homepage.jsx'
+import MovieDetailsPage from './components/MovieDetailsPage.jsx'
 
 function App() {
 
