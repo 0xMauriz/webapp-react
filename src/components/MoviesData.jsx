@@ -13,8 +13,7 @@ function MoviesData() {
 
         axios.get(endpoint)
             .then((res) => setMovies(res.data))
-            .catch((err) => console.log(err)
-            )
+            .catch((err) => console.log(err))
 
     }
 
