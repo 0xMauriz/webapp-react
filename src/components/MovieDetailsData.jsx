@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom";
+import MovieDetailsCard from "./MovieDetailsCard.jsx";
 import axios from "axios"
 
 
-function MovieDetailsCard() {
+function MovieDetailsData() {
 
     let titleParam = useParams();
 
@@ -28,16 +29,16 @@ function MovieDetailsCard() {
 
     return (
         <>
-            {/*    <MovieDetailsCard
+            <MovieDetailsCard
                 key={singleMovie.id}
                 title={singleMovie.title}
                 description={singleMovie.abstract}
                 image={singleMovie.image}
-            /> */}
+            />
 
         </>
     )
 
 }
 
-export default MovieDetailsCard
+export default MovieDetailsData
