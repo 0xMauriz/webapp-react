@@ -1,9 +1,15 @@
 import { useState, useEffect } from 'react'
 
-function ReviewComponent() {
+function AddReview() {
+
+    const [review, setReview] = useState({
+        name: "",
+        vote: "",
+        rece
+    })
 
     return (
-        <><div className="w-30 py-3">
+        <><div className="w-30 py-3 px-3">
             <form>
                 <div className="mb-3">
                     <label htmlFor="reviewer-name" className="form-label d-flex align-self-start">Nome:</label>
@@ -24,4 +30,4 @@ function ReviewComponent() {
 
 }
 
-export default ReviewComponent
+export default AddReview
