@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom";
 import MovieDetailsCard from "./MovieDetailsCard.jsx";
-import MovieReviews from "./MovieReviews.jsx"
+import MovieReviews from "./MovieReviewsCard.jsx"
 import axios from "axios"
 
 

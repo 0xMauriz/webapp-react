@@ -1,6 +1,6 @@
 function MovieDetailsCard(props) {
 
-    const { title, description, image, name, vote, text } = props;
+    const { title, description, image } = props;
 
     const imageString = "http://localhost:3000/" + image
 

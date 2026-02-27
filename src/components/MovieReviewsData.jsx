@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import MovieReviews from "./MovieReviews";
+import MovieReviews from "./MovieReviewsCard";
 
 function MovieReviewsData() {
 
@@ -22,7 +22,7 @@ function MovieReviewsData() {
 
     useEffect(() => {
         getMovie();
-    }, [titleParam.title]);
+    }, [titleParam.title, movies]);
 
     return (
         <>
